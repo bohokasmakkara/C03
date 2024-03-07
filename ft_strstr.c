@@ -19,3 +19,12 @@ char	*ift_strstr(char *str, char *to_find)
 	}
 	return (NULL);
 }
+#include <stdio.h>
+
+int main()
+{
+      char *str = "15 56 898";
+    char *to_find = "56 8";
+ printf("%s", ft_strstr(str, to_find));
+ return (0);
+}
