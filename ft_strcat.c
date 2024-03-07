@@ -18,3 +18,13 @@ char	*ft_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+#include <stdio.h>
+int main()
+{
+char str[] = "vaj";
+char dest[20] = "mogyoro"; //have to make sure that there is enough space for concatenation
+
+printf("%s", ft_strcat(dest, str));
+    
+    return (0);
+}
