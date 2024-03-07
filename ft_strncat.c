@@ -18,3 +18,18 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	dest[i] = '\0';
 	return (dest);
 }
+#include <stdio.h>
+int main ()
+{
+char str[7] = "kenyer";
+char dest[100] = "mogyoro"; 
+
+char s1[7] = "kenyer";
+char d1[100] = "mogyoro";
+
+printf("%s\n", ft_strncat(dest, str, 5));
+
+printf("%s", strncat(d1, s1, 5));
+    
+    return (0);
+}
